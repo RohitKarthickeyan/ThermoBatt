@@ -3,6 +3,7 @@
 # Press P to Pause the Simulation
 # Press the Up Arrowkey to speed up the simulation
 # Press the Down ArrowKey to slow down the simulation
+# Change the path for the pd.read_csv function to align with where the data is stored
 
 import pygame
 import numpy as np
