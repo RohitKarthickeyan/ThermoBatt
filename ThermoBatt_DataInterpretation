@@ -1,0 +1,57 @@
+Some plots are labeled with units for their respective variables, while other plots draw directly from the data itself and instead use the names of columns in the dataset. For accurate interpretation of our work, please keep in mind the following: 
+
+Voltage_measured: difference in electric potential at positive, negative terminals of battery (volts)
+
+Current_measured: battery current (amps)
+
+Temperature_measured: battery temperature (deg. C)
+
+Current_charge: current measured at battery charger (amps)
+
+Voltage_charge: cottage measured at battery charger (volts)
+
+Time: cycle time instance (seconds)
+
+cycle_type: test type (charge, discharge, impedance)
+
+start_time: time for beginning of cycle
+
+ambient_temperature: ambient environment temperature (deg. C)
+
+Current_load: amount of current supplied by power source (amps)
+
+Voltage_load: amount of voltage supplied by power source (volts)
+
+Capacity: total battery electrical generation for 2.7V (ampere-hour)
+
+Sense_current: sense branch current measured (amps)
+
+Current_ratio: sense current to battery current ratio (scalar)
+
+Battery_impedance: battery resistance to alternating current (ohms)
+
+Rectified_Impedance: calibrated resistance (ohms)
+
+Re: solution resistance, estimate (ohms)
+
+Rct: charge transfer resistance, estimate (ohms)
+
+Corrected_time: corrected and calibrated time measurement (seconds) 
+
+current_impedance: current resistance (ohms)
+
+ΔT: change in temperature for run (deg. C)
+
+Δt: change in time for run (seconds)
+
+temp_gradient: change in temperature over change in time (deg. C / second)
+
+Heat_generated: total heat generated for run (joules)
+
+heat_flux: flow of heat per unit area per unit time (watts / meters squared *  seconds)
+
+heat_loss_rate: loss of heat over runtime (watts)
+
+convective_heat_transfer: unit amount of heat lost in transfer to air (watts)
+
+
