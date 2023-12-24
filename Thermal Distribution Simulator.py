@@ -12,10 +12,10 @@ import time
 # Initialize Pygame
 pygame.init()
 
-#import data from google drive
+#import data from google drive if that's where you are getting your data from
 from google.colab import drive
 drive.mount('/content/drive')
-battery_data = pd.read_csv('/content/drive/MyDrive/BatteryProjectData/MyCleanedData/all_data_fixed.csv')
+battery_data = pd.read_csv('/content/drive/MyDrive/BatteryProjectData/MyCleanedData/all_data_fixed.csv') # use whatever directory your data is in
 
 # Original Battery dimensions
 original_radius = 18  # in mm
