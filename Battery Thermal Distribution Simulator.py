@@ -74,6 +74,7 @@ def draw_text(surface, text, position, font_size=24, color=(255, 255, 255)):
 # Main simulation loop
 time_data = battery_data['Δt'].tolist()
 current_temp = battery_data['Temperature_measured'].tolist()
+start_time = time.time()
 current_time_index = 0
 running = True
 scaling_factor = 1
